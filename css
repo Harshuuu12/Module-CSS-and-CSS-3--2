@@ -1,0 +1,165 @@
+Q1 -: What are the benefits of using CSS?
+-> 1. Separation of Content and Style
+   2. Consistency
+   4. Responsive Design
+   5. Animations 
+
+Q2 -: What are the disadvantages of CSS?
+-> 1. Browser Compatibility
+   2. Learning Curve
+   3. Lack of Security
+   4. Limited Layout Control
+   5. Performance Impact
+
+Q3 -: What is the difference between CSS2 and CSS3?
+-> CSS2 introduced a new box model which included padding, 
+   borders, and margins. 
+   CSS3 introduced the flexible box layout module, which allows
+   for more flexible layouts.
+
+Q4 -: Name a few CSS style components
+->  (1)Selectors
+    (2)Properties
+    (3)Values
+    (4)Box Model
+    (5)Layout
+    (6)Animations
+
+Q5 -: What do you understand by CSS opacity? 
+-> Opacity set a transparency of an element
+   - You can give value between 0 to 1
+
+Q6 -: How can the background color of an element be changed?
+->  Ex-: h1{
+            background-color : red;
+         }
+
+Q7 -: How can image repetition of the backup be controlled?
+->   Ex-: h1 {
+            background-repeat: no-repeat;
+            }
+
+Q8 -: What is the use of the background-position property?
+->    Ex-: h1 {
+            background-postion: center;
+            /* center,top,right,left,bottom */
+            }
+
+Q9 -: Which property controls the image scroll in the background?
+->    Ex-: h1 {
+            background-attachment: fixed;
+            }
+
+Q10 -: Why should background and color be used as separate properties?
+->      Background and color as separate properties in web     design and development  
+
+Q11 -: How to center block elements using CSS1?
+->    Ex-: h1{
+            text-align: center;
+            }
+
+Q12 -: How to maintain the CSS specifications?
+->    CSS specifications, you ensure that styling across your website or application remains consistent. This consistency enhances user experience and maintains the visual identity of your brand.
+
+Q13 -: What are the ways to integrate CSS as a web page?
+->    There are Three ways to integrate a CSS:
+         (1)inline 
+         (2)internal
+         (3)External
+
+      (1)inline tag:
+            - Inline tag is use in a element
+                Ex-: <p style="color: blue;> </p>
+
+      (2)internal:
+            - The <style> tag use in head section you can      use a CSS
+               Ex-: <style>
+                        h1 {
+                           color: green;
+                        }
+                    </style>
+
+      (3)External:
+            -  you can connect with css file then you can use a CSS
+               Ex-:  h1 {
+                           color: green;
+                        }
+
+Q14 -:  What is embedded style sheets?
+->  Embedded style sheets is also known as Internal style sheets
+      - The <style> tag use in head section you can      use a CSS
+         Ex -: <style>
+                        h1 {
+                           color: green;
+                        }
+               </style>
+
+Q15 -: What are the external style sheets?
+->   -  you can connect with css file then you can use a CSS
+               Ex-:  h1 {
+                           color: green;
+                        }
+
+Q16 -: What are the advantages and disadvantages of using external style sheets?
+->    Advantages -:
+                  (1) Consistency
+                  (2) Ease of Maintenance
+                  (3) Caching
+                  (4) Separation of Concerns
+
+      Disadvantages -:      
+                  (1) HTTP Requests:
+                  (2) Dependency
+                  (3) Blocking Rendering
+                  (4) Specificity and Inheritance Issues
+
+Q17 -: What is the meaning of the CSS selector?
+->    A CSS selector is a pattern used to select and style elements in an HTML document. It defines the elements to which a particular set of CSS rules will apply.
+
+Q18 -: What are the media types allowed by CSS?
+->    CSS supports several media types, which allow you to specify different styles for different types of devices or media.
+
+Q19 -: What is the rule set?
+->    In CSS, a rule set, also known simply as a rule, is a collection of one or more CSS declarations that define how an HTML element should be styled. Each rule set consists of a selector and a declaration block.
+      Example -:
+                  selector {
+                     color:red;
+                  }
+
+Q20 -:  Create Layouts
+->    Example -:
+            Display top 10 IT companies list in html webpage
+
+                  <!DOCTYPE html>
+                  <html lang="en">
+                  <head>
+                     <meta charset="UTF-8">
+                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                     <title>TOP 10 IT COMPAINES</title> 
+                     <style>
+                        li {
+                              margin-bottom: 25px;
+                        }
+                     </style>
+
+                  </head>
+                  <body>
+                     <center>
+                        <h1>TOP 10 IT COMPAINES</h1>
+                     </center>
+                     <ol>
+                        <li>MICROSOFT</li>
+                        <li>APPLE</li>
+                        <li>GOOGLE</li>
+                        <li>AMAZON WEB SERVICE</li>
+                        <li>Oracle Corporation</li>
+                        <li>Intel Corporation</li>
+                        <li>Samsung Electronics </li>
+                        <li>IBM (International Business Machines Corporation)</li>
+                        <li>Cisco Systems </li>
+                        <li>Tencent Holdings Limited</li>
+                     </ol>
+                     
+                  </body>
+                  </html>
+
